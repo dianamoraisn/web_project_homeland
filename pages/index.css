@@ -1,14 +1,5 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/lead.css");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-body {
-  font-family: sans-serif; 
-  background-color: #ffffff;
-  color: #000000;
-}
