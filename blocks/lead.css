@@ -4,14 +4,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
+
 
 .lead__title {
   margin: 0;
   max-width: 720px;
   font-family: "Inter", Arial, sans-serif;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   font-weight: 900;
   text-align: center;
   color: #ffffff;
@@ -22,7 +25,7 @@
   max-width: 720px;
   font-family: "Inter", Arial, sans-serif;
   font-size: 30px;
-  line-height: 36px;
+  line-height:  1.2; 
   font-weight: 400;
   text-align: center;
   color: #ffffff;
@@ -34,5 +37,25 @@
   max-width: 984px;
   margin: 0 auto;
   filter: grayscale(100%);
-  
 }
+
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 720px;
+  }
+
+  .lead__image {
+    max-width: 768px;
+  }
+} 
+
+@media screen and (max-width: 544px) {
+  .lead__image {
+    max-width: 320px;
+  }
+}
+
+
+
+
