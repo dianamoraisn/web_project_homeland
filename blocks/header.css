@@ -15,7 +15,6 @@
 
 .header__text {
   margin: 22px 0 0;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
@@ -25,7 +24,6 @@
 
 @media screen and (max-width: 1024px) {
   .header__logo {
-    width: 254px; 
     height: 66px; 
   }
 }
