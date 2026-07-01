@@ -67,13 +67,4 @@
     font-size: 32px;
     line-height: 1.09;
   }
-
-  .intro__quote,
-  .intro__quote-author {
-    font-size: 24px;
-  }
-
-  .intro__text {
-    font-size: 16px;
-  }
 } 
