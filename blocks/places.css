@@ -1,0 +1,89 @@
+.places {
+  max-width: 984px;
+  margin: 92px auto 0;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  column-gap: 40px;
+  row-gap: 48px;
+} 
+
+
+.place__title {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  width: 460px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+}
+
+.place__artist {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  margin-bottom: 26px;
+}
+
+.place__image {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
+  display: block;
+}
+
+.place__content {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+  margin:0; 
+}
+
+.place__button {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.place__button {
+  display: inline-block;
+  width: fit-content;
+  padding: 13px 20px;
+  background: #0278fe;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.place__artist-heading {
+  margin: 0 0 10px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.place__artist-name {
+  margin: 0; 
+  font-size: 18px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.place__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0 0 20px;
+}
+
+
