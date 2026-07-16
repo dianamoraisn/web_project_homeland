@@ -44,7 +44,7 @@
   }
 
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 768px) {
   .intro{
     max-width: 720px;
   } 
@@ -68,3 +68,15 @@
     line-height: 1.09;
   }
 } 
+
+.intro__quote{
+    font-size:24px;
+}
+
+.intro__quote-author{
+    font-size:24px;
+}
+
+.intro__text{
+    font-size:16px;
+}
