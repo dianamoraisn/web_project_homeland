@@ -13,14 +13,6 @@
 }
 
 
-.header__text {
-  margin: 22px 0 0;
-  font-size: 14px;
-  font-weight: 500;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
 
 @media screen and (max-width: 1024px) {
   .header__logo {
